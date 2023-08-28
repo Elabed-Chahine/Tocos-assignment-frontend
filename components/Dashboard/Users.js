@@ -40,7 +40,7 @@ function Users({ token,setActiveUser,activeUser }) {
                             {user.firstName + " " + user.lastName}
                         </div>
                         <div className="flex items-center w-full">
-                            <div className="text-xs py-1 px-2 leading-none dark:bg-gray-900 bg-blue-100 text-green-500 rounded-md">{user.transactions.length} transactions made</div>
+                            <div className="text-xs py-1 px-2 leading-none dark:bg-green-900 bg-blue-100 text-green-500 rounded-md">{user.transactions.length} transfers made</div>
                             <div className="ml-auto text-xs text-gray-500">${user.balance}</div>
                         </div>
                     </button>

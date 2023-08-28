@@ -119,7 +119,7 @@ function RegisterForm() {
                 </div>
                 {errors?.password?.message ? <p className={`text-red-700 text-sm ml-6`}>{errors?.password?.message}</p> : ""}
                 <button type="submit" onClick={(e) => { e.preventDefault(); onSubmit() }} className="block w-full bg-indigo-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Sign up</button>
-                <span onClick={()=>router.push('/login')} className="text-sm font-semibold ml-6 text-blue-500 hover:text-blue-950 cursor-pointer">Already have an account?</span>
+                <span onClick={()=>router.push('/login')} className="text-sm font-semibold ml-12 text-blue-500 hover:text-blue-950 cursor-pointer">Already have an account?</span>
             </form>
         </div>
     )

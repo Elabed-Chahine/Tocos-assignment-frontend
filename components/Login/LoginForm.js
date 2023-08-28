@@ -91,7 +91,7 @@ function LoginForm() {
                 </div>
                 {errors?.password?.message ? <p className={`text-red-700 text-sm ml-6`}>{errors?.password?.message}</p> : ""}
                 <button type="submit" onClick={(e) => { e.preventDefault(); onSubmit() }} className="block w-full bg-indigo-600 mt-4 py-2 rounded-2xl text-white font-semibold mb-2">Sign up</button>
-                <span className="text-sm ml-2 hover:text-blue-500 cursor-pointer">Forgot Password ?</span>
+                <a href='/'  className="text-sm ml-12 font-semibold text-blue-700 hover:text-blue-500 cursor-pointer">Don't have an account ?</a>
             </form>
         </div>
     )
