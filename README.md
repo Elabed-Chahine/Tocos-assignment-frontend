@@ -1,5 +1,7 @@
 # Tocos-assignment-frontend
 
+## Image
+![Screenshot of the Dashboard screen.](/public/snapshot.png)
 
 ## First, install dependencies:
 
