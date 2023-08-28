@@ -1,6 +1,26 @@
 # Tocos-assignment-frontend
 
+## Image
+![Screenshot of the Dashboard screen.](/public/snapshot.png)
 
+
+## Description
+
+```
+//You can search users.
+
+//You can Click on a user and see his full name, his balance and the number of transfers he made.
+
+//You can transfer Tocos to another user.
+
+//You can see the history of all your transactions with any user you select
+
+//You can Register a new account
+
+//You can login with your account
+
+//You can logout
+```
 ## First, install dependencies:
 
 ```bash
