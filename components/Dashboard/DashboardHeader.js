@@ -34,7 +34,7 @@ const DashboardHeader = ({isModalOpen,setIsModalOpen, activeUser, token, uid }) 
                         <div className="text-xs text-gray-400 dark:text-gray-400">Account balance:</div>
                         <div className="text-gray-900 text-lg dark:text-white flex items-center justify-evenly"> <Image width="60" height="60" className={"m-3"} src="/icon.png" />{user.balance}</div>
                     </div>
-                   { activeUser!=uid && <button onClick={()=>setIsModalOpen(true)} className="ml-4 p-4 hover:bg-slate-600 font-bold text-white shadow  rounded-full flex items-center justify-center border border-gray-200 dark:border-gray-700">
+                    {activeUser != uid && <button onClick={() => setIsModalOpen(true)} className="ml-4 p-4 hover:bg-slate-900 bg-slate-600 font-bold text-white shadow  rounded-full flex items-center justify-center border border-gray-200 dark:border-gray-700">
                         Transfer tocos
                     </button>}
                 </div>
