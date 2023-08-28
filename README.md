@@ -2,7 +2,10 @@
 
 ## Image
 ![Screenshot of the Dashboard screen.](/public/snapshot.png)
-### Description
+
+
+## Description
+
 ```
 //You can search users.
 
