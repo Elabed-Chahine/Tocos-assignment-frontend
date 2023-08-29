@@ -1,7 +1,10 @@
 # Tocos-assignment-frontend
 
-## Image
+## Dashboard Image
 ![Screenshot of the Dashboard screen.](/public/snapshot.png)
+
+## Register Image
+![Screenshot of the Register screen.](/public/register.png)
 
 
 ## Description
