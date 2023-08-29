@@ -5,11 +5,11 @@ import React, { useEffect, useState } from 'react'
 import { toast } from 'react-toastify'
 import TransactionModal from './TransactionModal'
 
-const DashboardHeader = ({isModalOpen,setIsModalOpen, activeUser, token, uid }) => {
+const DashboardHeader = ({ isModalOpen, setIsModalOpen, activeUser, token, uid }) => {
     const [user, setUser] = useState([])
     useEffect(() => {
         getActiveUser()
-    }, [activeUser])
+    }, [activeUser, isModalOpen])
 
     const getActiveUser = async () => {
         try {
